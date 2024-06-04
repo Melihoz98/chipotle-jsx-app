@@ -20,6 +20,7 @@ const Footer = () => (
 <img src={images.spoon} alt='spoon' className='spoon__img' style={{marginTop:15}} />
       <div className='app__footer-links_icons'>
 <FiFacebook />
+<img src={images.smileyIcon} alt='smiley' height='50' />
       </div>
       </div>
       <div className='app__footer-links_work'>

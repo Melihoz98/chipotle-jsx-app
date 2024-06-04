@@ -24,7 +24,9 @@ import logoMexico from '../assets/logoMexico.png';
 import steakChipotle from '../assets/steak-chipotle.png';
 import chiliBackground from '../assets/chiliBaggrund.jpg';
 import restaurantFront from '../assets/restaurantfront.png';
+import smileyIcon from '../assets/smileyikon.jpg';
 export default {
+  smileyIcon,
   restaurantFront,
   chiliBackground,
   steakChipotle,

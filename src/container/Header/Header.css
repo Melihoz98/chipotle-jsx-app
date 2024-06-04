@@ -20,3 +20,5 @@
 .app__wrapper_img img{
     border-radius: 150px;
 }
+
+.custom__button {background-color: green;}

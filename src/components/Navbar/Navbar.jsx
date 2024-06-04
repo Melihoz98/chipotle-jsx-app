@@ -13,7 +13,7 @@ const [toggleMenu, setToggleMenu] = useState(false);
 
  <nav className='app__navbar'>
 <div className='app__navbar-logo'>
-<img src={images.logoMexico} alt='app logo' />
+<a href='/'><img src={images.logoMexico} alt='app logo' /></a>
 </div>
 <ul className='app__navbar-links'>
   <li className='p__opensans'><a href='#home'>HJEM</a> </li>

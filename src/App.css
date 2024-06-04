@@ -54,7 +54,7 @@
 
 .custom__button {
   background-color: var(--color-crimson);
-    color: var(--color-black);
+    color: rgb(255, 255, 255);
     font-family: var(--font-base);
     font-weight: 700;
     letter-spacing: 0.04em;
@@ -65,6 +65,7 @@
     border: none;
     outline: none;
     cursor: pointer;
+    background-color: green;
 }
 
 .p__cormorant {
@@ -80,7 +81,7 @@
 
 .p__opensans {
   font-family: var(--font-base);
-  color: var(--color-white);
+  color: red;
   font-weight: 700;
   font-style: italic;
   letter-spacing: 0.04em;

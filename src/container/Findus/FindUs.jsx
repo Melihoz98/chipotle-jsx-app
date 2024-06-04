@@ -17,7 +17,8 @@ const FindUs = () => (
 <button className='custom__button' style={{marginTop: '2rem'}}>Find os nu</button>
     </div>
     <div className='app__wrapper_img'>
-      <img src={images.findus} alt='findus' />
+      <img src={images.restaurantFront} alt='findus' />
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4530.586786825967!2d11.350445377391381!3d55.40523337295752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464d617cdcf95555%3A0xd3d716ed4486a0bb!2sJernbanegade%203%2C%204200%20Slagelse!5e0!3m2!1sda!2sdk!4v1717534055906!5m2!1sda!2sdk" width="300" height="200" style={{border:'0'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 );

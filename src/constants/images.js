@@ -27,7 +27,13 @@ import restaurantFront from '../assets/restaurantfront.png';
 import smileyIcon from '../assets/smileyikon.jpg';
 import insideImage from '../assets/indenforimage.png'
 import drinkImage from '../assets/drinkImage.jpg';
+import churros from '../assets/churros.png';
+import gryde from '../assets/gryde.png';
+import fuldmenu from '../assets/fuldmenu.png';
 export default {
+  fuldmenu,
+  gryde,
+  churros,
   drinkImage,
   insideImage,
   smileyIcon,

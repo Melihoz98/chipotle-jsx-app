@@ -2,8 +2,9 @@ import React from 'react';
 import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 import { images } from '../../constants'; // Import images only once
 import './Gallery.css';
+import { SubHeading } from '../../components';
 
-const galleryImages = [images.gallery01, images.gallery02, images.gallery03, images.gallery04];
+const galleryImages = [images.churros, images.gryde, images.fuldmenu, images.steakChipotle];
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);
@@ -20,12 +21,11 @@ const Gallery = () => {
 
   return (
     <div className='app__gallery flex__center'>
+      <SubHeading />
       <div className='app__gallery-content'>
-        <h1 className='headtext__cormorant'>Photo Gallery</h1>
+        <h1 className='headtext__cormorant1'>Se vores lækre retter!</h1>
         <p className='p__opensans' style={{ color: '#AAA', marginTop: '2rem' }}></p>
-        <button type='button' className='custom__button'>
-          View more
-        </button>
+     
       </div>
       <div className='app__gallery-images'>
         <div className='app__gallery-images_container' ref={scrollRef}>

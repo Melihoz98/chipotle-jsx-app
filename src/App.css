@@ -28,7 +28,7 @@
 }
 
 .app__bg2 {
-  background: url('./assets/drinkImage.jpg');
+ background-color: rgba(15, 132, 209, 0.61);;
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -142,6 +142,15 @@
 .headtext__cormorant {
   font-family: var(--font-base);
   color: var(--color-white);
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
+.headtext__cormorant1 {
+  font-family: var(--font-base);
+  color: red;
   font-size: 64px;
   line-height: 83.2px;
   letter-spacing: 0.04em;

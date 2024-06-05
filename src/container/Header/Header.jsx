@@ -10,7 +10,10 @@ const Header = () => (
 <h1 className='app__header-h1'> Smagsoplevelser fra Mexico
 
 </h1>
-<p className='p__opensans' style={{margin: '2rem 0'}}>vildt lækker mexikans mad her hos os i slagelse! kom</p>
+<p className='p__opensans3' style={{margin: '2rem 0'}}>Oplev ægte mexicansk smag hos vores steakhouse.<br></br>
+        Saftige bøffer, krydret krydderier, autentiske retter.<br></br>
+        Prøv vores tacos, quesadillas og burritos.<br></br>
+        Velkommen til en smagsrejse!<br></br></p>
     <button type='button' className='custom__button'>Se vores Menu</button>
     </div>
     <div className='app__wrapper_img'>

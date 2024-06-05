@@ -15,7 +15,36 @@
   background-repeat: repeat;
   background-attachment: fixed;
 }
+@media (max-width: 1200px) {
+  .app__bg {
+    background-size: 150%; /* Zoom out a bit for tablets */
+  }
+}
 
+@media (max-width: 768px) {
+  .app__bg {
+    background-size: 200%; /* Zoom out more for mobile devices */
+  }
+}
+
+.app__bg2 {
+  background: url('./assets/drinkImage.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+@media (max-width: 1200px) {
+  .app__bg2 {
+    background-size: 150%; /* Zoom out a bit for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .app__bg2 {
+    background-size: 200%; /* Zoom out more for mobile devices */
+  }
+}
 .app__wrapper {
   display: flex;
   justify-content: space-between;
@@ -81,7 +110,27 @@
 
 .p__opensans {
   font-family: var(--font-base);
-  color: red;
+  color: rgb(255, 0, 0);
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 28px;
+  font-size: 16px;
+}
+.p__opensans2 {
+  font-family: var(--font-base);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 28px;
+  font-size: 16px;
+}
+.p__opensans3 {
+  font-family: var(--font-base);
+  color: rgb(21, 111, 196);
   font-weight: 700;
   font-style: italic;
   letter-spacing: 0.04em;
@@ -92,7 +141,7 @@
 
 .headtext__cormorant {
   font-family: var(--font-base);
-  color: var(--color-golden);
+  color: var(--color-white);
   font-size: 64px;
   line-height: 83.2px;
   letter-spacing: 0.04em;

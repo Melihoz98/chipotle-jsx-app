@@ -25,7 +25,11 @@ import steakChipotle from '../assets/steak-chipotle.png';
 import chiliBackground from '../assets/chiliBaggrund.jpg';
 import restaurantFront from '../assets/restaurantfront.png';
 import smileyIcon from '../assets/smileyikon.jpg';
+import insideImage from '../assets/indenforimage.png'
+import drinkImage from '../assets/drinkImage.jpg';
 export default {
+  drinkImage,
+  insideImage,
   smileyIcon,
   restaurantFront,
   chiliBackground,

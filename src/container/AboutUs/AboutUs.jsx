@@ -10,10 +10,12 @@ const AboutUs = () => (
     </div>
     <div className='app__aboutus-content flex__center'>
 <div className='app__aboutus-content_about'>
-<h1 className='headtext__cormorant'>Om Os</h1>
+<h1 className='headtext__cormorant'>Vi er beliggende i hjertet af Slagelse.</h1>
 <img src={images.spoon} alt='about_spoon' className='spoon__img' />
-<p className='p__opensans'> Tekst om osss</p>
-<button type='button' className='custom__button'>Lær mere</button>
+<p className='p__opensans2'> vi serverer autentiske mexicanske retter lavet med friske råvarer og kærlighed.
+ Oplev den livlige atmosfære, krydrede smagsoplevelser og varme gæstfrihed.
+  Kom og nyd en uforglemmelig aften fyldt med mexicansk kultur og madglæde!</p>
+
 </div>
 <div className='app__aboutus-content_knife flex__center'>
 <img src={images.knife} alt='about_knife' />
@@ -21,10 +23,12 @@ const AboutUs = () => (
 
 
 <div className='app__aboutus-content_history'>
-<h1 className='headtext__cormorant'>Vores historie</h1>
+<h1 className='headtext__cormorant'>Moderne Mexikansk Steakhouse</h1>
 <img src={images.spoon} alt='about_spoon' className='spoon__img' />
-<p className='p__opensans'> Tekst om osss</p>
-<button type='button' className='custom__button'>Lær mere</button>
+<p className='p__opensans2'> Restauranten byder på en hyggelig indretning med en fusion af rustikke 
+og moderne elementer.
+Et besøg her lover en uforglemmelig kulinarisk rejse til Mexicos hjerte.</p>
+<button type='button' className='custom__button'>Se vores Menu</button>
 </div>
 
 

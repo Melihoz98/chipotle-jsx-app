@@ -30,7 +30,15 @@ import drinkImage from '../assets/drinkImage.jpg';
 import churros from '../assets/churros.png';
 import gryde from '../assets/gryde.png';
 import fuldmenu from '../assets/fuldmenu.png';
+import aftenKort1 from '../assets/aftenkort1.png';
+import aftenkort2 from '../assets/aftenkort2.png';
+import frokostkort1 from '../assets/frokostkort1.png';
+import frokostkort2 from '../assets/frokostkort2.png';
 export default {
+  frokostkort1,
+  frokostkort2,
+  aftenkort2,
+  aftenKort1,
   fuldmenu,
   gryde,
   churros,

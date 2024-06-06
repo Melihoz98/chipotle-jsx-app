@@ -17,15 +17,13 @@ Vi glæder os til at se jer!
 <div className='app__chef-content'>
   <div className='app__chef-content_quote'>
   
-    <p className='p__opensans2'> Vi glæder os til at se jer!</p>
+    <p className='p__opensans2'> Der plads til alle slags selskab</p>
   </div>
   <p className='p__opensans2'>
-    meget god mad vi har
+    Ring og bestil bord.  vi sørger for resten  <button type='button' className='custom__button'>Bestil bord</button>
   </p>
+
 </div>
-
-
-
     </div>
   </div>
 );

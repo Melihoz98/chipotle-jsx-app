@@ -21,12 +21,11 @@ const Navbar = () => {
         <li className='p__opensans2'><a href='#home'>HJEM</a> </li>
         <li className='p__opensans2'><a href='#about'>OM</a> </li>
         <li className='p__opensans2'><a href='#menu'>MENU</a> </li>
+        <li className='p__opensans2'><a href='#chef'>BOOK BORD</a> </li>
         <li className='p__opensans2'><a href='#contact'>KONTAKT</a> </li>
       </ul>
 
-      <div className='app__navbar-login'>
-        <a href='#bookBord' className='p__opensans2'> BOOK BORD</a>
-      </div>
+  
       <div className='app__navbar-smallscreen'>
         <GiHamburgerMenu color='#fff' fontSize={27} onClick={() => setToggleMenu(true)} />
         {toggleMenu && (
@@ -36,6 +35,7 @@ const Navbar = () => {
               <li className='p__opensans2'><a href='#home' onClick={handleMenuItemClick}>HJEM</a> </li>
               <li className='p__opensans2'><a href='#about' onClick={handleMenuItemClick}>OM</a> </li>
               <li className='p__opensans2'><a href='#menu' onClick={handleMenuItemClick}>MENU</a> </li>
+              <li className='p__opensans2'><a href='#chef' onClick={handleMenuItemClick}>BOOK BORD</a> </li>
               <li className='p__opensans2'><a href='#contact' onClick={handleMenuItemClick}>KONTAKT</a> </li>
             </ul>
           </div>

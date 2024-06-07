@@ -1,0 +1,85 @@
+.app__header {
+    background-color: rgba(0, 250, 12, 0.39);
+    padding: 2rem; /* Add some padding */
+    overflow: hidden; /* Prevent horizontal scrolling */
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: red;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 90px;
+}
+
+.app__wrapper_img img {
+    border-radius: 150px;
+    width: 80%;
+}
+
+.custom__button {
+    background-color: green;
+}
+
+@media (max-width: 768px) {
+    .app__header-h1 {
+        font-size: 35px; /* Adjust font size for mobile */
+        line-height: 60px; /* Adjust line height for mobile */
+    }
+
+    .p__opensans3 {
+        font-size: 16px; /* Adjust paragraph font size for mobile */
+    }
+
+    .app__wrapper_img img {
+        width: 100%; /* Make the image width 100% for mobile */
+    }
+
+    .app__header {
+        padding: 1rem; /* Adjust padding for mobile */
+    }
+}
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: '-50%';
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .close-button {
+    background: #ff5a5a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .modal-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px; /* Add some space between images */
+  }
+  

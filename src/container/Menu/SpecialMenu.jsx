@@ -29,7 +29,7 @@ const SpecialMenu = () => {
           Prøv vores tacos, quesadillas og burritos.<br />
           Velkommen til en smagsrejse!<br />
         </p>
-        <button type='button' className='custom__button' onClick={() => openModal([images.aftenKort1, images.aftenKort2])}>Aften Kort</button>
+        <button type='button' className='custom__button' onClick={() => openModal([images.aftenKort1, images.aftenkort2])}>Aften Kort</button>
       </div>
       <div className='app__wrapper_info'>
         <p className='p__opensans3' style={{ margin: '2rem 0' }}>
@@ -38,7 +38,7 @@ const SpecialMenu = () => {
           Prøv vores tacos, quesadillas og burritos.<br />
           Velkommen til en smagsrejse!<br />
         </p>
-        <button type='button' className='custom__button' onClick={() => openModal([images.lunchMenu])}>Frokost Kort</button>
+        <button type='button' className='custom__button' onClick={() => openModal([images.frokostkort1, images.frokostkort2])}>Frokost Kort</button>
       </div>
       <div className='app__wrapper_img'>
         <img src={images.steakChipotle} alt='header img' />

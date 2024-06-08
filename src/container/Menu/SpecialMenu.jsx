@@ -1,22 +1,25 @@
 import React, { useState } from 'react';
-import Modal from 'react-modal';
 import { images } from '../../constants';
 import './SpecialMenu.css';
+import AftenMenu from '../MenuPage/AftenMenu';
+import FrokostMenu from '../MenuPage/FrokostMenu';
+import Drinks from '../MenuPage/Drinks';
+import Modal from 'react-modal';
 
-Modal.setAppElement('#root'); // Set your root element for accessibility
+Modal.setAppElement('#root');
 
 const SpecialMenu = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [modalImages, setModalImages] = useState([]);
+  const [currentModal, setCurrentModal] = useState(null);
 
-  const openModal = (images) => {
-    setModalImages(images);
+  const openModal = (modalType) => {
+    setCurrentModal(modalType);
     setModalIsOpen(true);
   };
 
   const closeModal = () => {
     setModalIsOpen(false);
-    setModalImages([]);
+    setCurrentModal(null);
   };
 
   return (
@@ -29,16 +32,11 @@ const SpecialMenu = () => {
           Prøv vores tacos, quesadillas og burritos.<br />
           Velkommen til en smagsrejse!<br />
         </p>
-        <button type='button' className='custom__button' onClick={() => openModal([images.aftenKort1, images.aftenkort2])}>Aften Kort</button>
-      </div>
-      <div className='app__wrapper_info'>
-        <p className='p__opensans3' style={{ margin: '2rem 0' }}>
-          Oplev ægte mexicansk smag hos vores steakhouse.<br />
-          Saftige bøffer, krydret krydderier, autentiske retter.<br />
-          Prøv vores tacos, quesadillas og burritos.<br />
-          Velkommen til en smagsrejse!<br />
-        </p>
-        <button type='button' className='custom__button' onClick={() => openModal([images.frokostkort1, images.frokostkort2])}>Frokost Kort</button>
+        <div className='button-container'>
+          <button className='custom__button' onClick={() => openModal('AftenMenu')}>Aften Menu</button>
+          <button className='custom__button' onClick={() => openModal('FrokostMenu')}>Frokost Menu</button>
+          <button className='custom__button' onClick={() => openModal('Drinks')}>Drikkevare</button>
+        </div>
       </div>
       <div className='app__wrapper_img'>
         <img src={images.steakChipotle} alt='header img' />
@@ -51,10 +49,9 @@ const SpecialMenu = () => {
         className="modal"
         overlayClassName="overlay"
       >
-        <button onClick={closeModal} className="close-button">Close</button>
-        {modalImages.map((image, index) => (
-          <img key={index} src={image} alt={`Menu ${index + 1}`} className="modal-image" />
-        ))}
+        {currentModal === 'AftenMenu' && <AftenMenu closeModal={closeModal} />}
+        {currentModal === 'FrokostMenu' && <FrokostMenu closeModal={closeModal} />}
+        {currentModal === 'Drinks' && <Drinks closeModal={closeModal} />}
       </Modal>
     </div>
   );

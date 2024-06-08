@@ -1,0 +1,51 @@
+.menu-page {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .menu-title {
+    font-size: 2.5rem;
+    color: #d32f2f; /* Red color */
+    margin-bottom: 20px;
+  }
+  
+  .menu-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu-tabs button {
+    background-color: #ffeb3b; /* Yellow color */
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-tabs button.active {
+    background-color: #d32f2f; /* Red color */
+    color: #fff;
+  }
+  
+  .menu-content {
+    margin-top: 20px;
+  }
+  
+  .menu-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* You can add more specific styling as needed */
+  

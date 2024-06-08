@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.menu-section {
+    margin-bottom: 2em;
+}
+.menu-section h2 {
+    background-color: #f4a261;
+    color: white;
+    padding: 10px;
+}
+.menu-item {
+    margin: 0.5em 0;
+}
+.menu-item h3 {
+    margin: 0;
+}
+.menu-item p {
+    margin: 0.2em 0 0.5em 0;
+}
+p {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}

@@ -4,6 +4,8 @@ body, html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column; /* Adjust based on your layout */
 }
 .section__padding {
   padding: 4rem 6rem;
@@ -20,7 +22,6 @@ body, html {
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
-  background-attachment: fixed;
 }
 
 @media (max-width: 1200px) {
@@ -40,7 +41,7 @@ body, html {
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
-  background-attachment: fixed;
+
 }
 @media (max-width: 1200px) {
   .app__bg2 {
@@ -60,7 +61,6 @@ body, html {
    background-position: center;
    background-size: cover;
    background-repeat: repeat;
-   background-attachment: fixed;
  }
  @media (max-width: 1200px) {
    .app__bg3 {

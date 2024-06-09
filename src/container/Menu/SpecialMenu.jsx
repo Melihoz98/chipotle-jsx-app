@@ -39,7 +39,7 @@ const SpecialMenu = () => {
         </div>
       </div>
       <div className='app__wrapper_img'>
-        <img src={images.steakChipotle} alt='header img' />
+        <img src={images.madImage} alt='header img' />
       </div>
 
       <Modal

@@ -34,7 +34,9 @@ import aftenKort1 from '../assets/aftenkort1.png';
 import aftenkort2 from '../assets/aftenkort2.png';
 import frokostkort1 from '../assets/frokostkort1.png';
 import frokostkort2 from '../assets/frokostkort2.png';
+import madImage from '../assets/madImage.jpg';
 export default {
+  madImage,
   frokostkort1,
   frokostkort2,
   aftenkort2,

@@ -35,7 +35,9 @@ import aftenkort2 from '../assets/aftenkort2.png';
 import frokostkort1 from '../assets/frokostkort1.png';
 import frokostkort2 from '../assets/frokostkort2.png';
 import madImage from '../assets/madImage.jpg';
+import nyLogo from '../assets/nyLogo.png';
 export default {
+  nyLogo,
   madImage,
   frokostkort1,
   frokostkort2,

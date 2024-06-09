@@ -44,7 +44,7 @@
 }
 
 .modal {
-    background: rgb(167, 160, 74);
+    background: rgb(52, 95, 196);
     padding: 20px;
     max-width: 500px;
     width: 90%;
@@ -60,6 +60,7 @@
     top: 10px;
     right: 10px;
     background: none;
+    color:white;
     border: none;
     font-size: 30px;
     cursor: pointer;

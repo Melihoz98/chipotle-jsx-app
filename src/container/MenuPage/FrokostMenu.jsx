@@ -3,10 +3,10 @@ import React from 'react';
 const FrokostMenu = ({ closeModal }) => (
     <div>
             <button className="close" onClick={closeModal}>&times;</button>
-<h1>Menu</h1>
+
 
 <div class="menu-section">
-    <h2>FORRETTER</h2>
+    <h1>FORRETTER</h1>
     <div class="menu-item">
         <span>NACHOS</span> <span class="price">79,-</span>
         <p>Ovnbagte og ostegratinerede torillachips. Serveres med jalapenos, creme fraiche, salsa & guacamole. Tilkøb af ekstra kylling 30,-</p>
@@ -30,7 +30,7 @@ const FrokostMenu = ({ closeModal }) => (
 </div>
 
 <div class="menu-section">
-    <h2>HOVEDRETTER</h2>
+    <h1>HOVEDRETTER</h1>
     <div class="menu-item">
         <span>BURRITOS DE CARNE ASADA</span> <span class="price">199,-</span>
         <p>Kæmpe hvedemelstortilla fyldt med grillet oksekød, champignon, løg, peberfrugt, cajun sauce og gratineret ost. Serveres med salat, jalapenos, guacamole, salsa, creme fraiche og pommes frites.</p>
@@ -54,7 +54,7 @@ const FrokostMenu = ({ closeModal }) => (
 </div>
 
 <div class="menu-section">
-    <h2>SALAT</h2>
+    <h1>SALAT</h1>
     <div class="menu-item">
         <span>TACO SALAT</span> <span class="price">179,-</span>
         <p>Oksekøds- og kyllingestrimler, salat, peberfrugt, løg, persille, champignon, cherrytomater og ost. Serveres med tortillachips, guacamole, jalapenos, salsa og creme fraiche.</p>
@@ -66,7 +66,7 @@ const FrokostMenu = ({ closeModal }) => (
 </div>
 
 <div class="menu-section">
-    <h2>DESSERTER</h2>
+    <h1>DESSERTER</h1>
     <div class="menu-item">
         <span>CHURROS</span> <span class="price">99,-</span>
         <p>Serveres med vanijleis, flormelis og chokoladesauce.</p>
@@ -81,7 +81,7 @@ const FrokostMenu = ({ closeModal }) => (
 </div>
 
 <div class="menu-section">
-    <h2>FROKOST BØFFER</h2>
+    <h1>FROKOST BØFFER</h1>
     <p>VÆLG STEGNING: Rød, medium/rød, Medium, Medium/gennemstegt eller gennemstegt</p>
     <div class="menu-item">
         <span>OKSEFILET</span> <span class="price">149,-</span>
@@ -115,7 +115,7 @@ const FrokostMenu = ({ closeModal }) => (
 </div>
 
 <div class="menu-section">
-    <h2>SPARERIBS</h2>
+    <h1>SPARERIBS</h1>
     <p>Serveres med BBQ glaserede spareribs med kartoffler BBQ sauce.</p>
     <div class="menu-item">
         <span>600g.</span> <span class="price">149,-</span>
@@ -126,7 +126,7 @@ const FrokostMenu = ({ closeModal }) => (
 </div>
 
 <div class="menu-section">
-    <h2>TACOS</h2>
+    <h1>TACOS</h1>
     <div class="menu-item">
         <span>TACOS</span> <span class="price">159,-</span>
         <p>To slags lækre tacos. Én med lækkert oksekød, peberfrugt, løg og stærk cajun sauce. Én med saftig kylling, peberfrugt, løg og BBQ sauce. Serveres med guacamole, salsa, creme fraiche, ost, jalapenos, pommes frites og chili mayo.</p>
@@ -134,7 +134,7 @@ const FrokostMenu = ({ closeModal }) => (
 </div>
 
 <div class="menu-section">
-    <h2>CHILI CON CARNE (STÆRK)</h2>
+    <h1>CHILI CON CARNE (STÆRK)</h1>
     <div class="menu-item">
         <span>CHILI CON CARNE</span> <span class="price">179,-</span>
         <p>Den originale chili con carne fyldt med hakket oksekød, bønner, majs, peberfrugt, løg, hvidløg, chili, mexicanske krydderier i mexicansk tomatsauce. Serveres i varm gryde med persille, chips, tortilla, guacamole, creme fraiche, salsa, ost og jalapenos.</p>
@@ -142,7 +142,7 @@ const FrokostMenu = ({ closeModal }) => (
 </div>
 
 <div class="menu-section">
-    <h2>ENCHILADAS</h2>
+    <h1>ENCHILADAS</h1>
     <div class="menu-item">
         <span>ENCHILADAS</span> <span class="price">179,-</span>
         <p>Tre små hvedemelstortillas, med sauteret oksekød, gratineret ost og cajun sauce / sauteret kylling, ost og BBQ sauce / chili con carne, ost og chili sauce. Serveres med salat, jalapenos, guacamole, salsa, creme fraiche og pommes frites.</p>
@@ -150,7 +150,7 @@ const FrokostMenu = ({ closeModal }) => (
 </div>
 
 <div class="menu-section">
-    <h2>BURGERE & SANDWICH</h2>
+    <h1>BURGERE & SANDWICH</h1>
     <div class="menu-item">
         <span>HAMBURGUESA DE POLLO CRUJIENTE</span> <span class="price">149,-</span>
         <p>Briochebolle smurt med chilimayo, paneret sprød kylling, guacamole, mexicansk salsa & pickles. Serveres med pommes frites & chili mayo.</p>
@@ -166,7 +166,7 @@ const FrokostMenu = ({ closeModal }) => (
 </div>
 
 <div class="menu-section">
-    <h2>BØRNERETTER</h2>
+    <h1>BØRNERETTER</h1>
     <div class="menu-item">
         <span>BURRITOS PARA NINOS</span> <span class="price">109,-</span>
         <p>Hvedemelstortillas fyldt med sauteret oksekød og kylling, gratineret med ost. Serveres med BBQ sauce, pommes frites, guacamole og creme fraiche.</p>
@@ -181,7 +181,7 @@ const FrokostMenu = ({ closeModal }) => (
 </div>
 
 <div class="menu-section">
-    <h2>MEXICANSKE RETTER</h2>
+    <h1>MEXICANSKE RETTER</h1>
     <div class="menu-item">
         <span>CLASSIC BURGER</span> <span class="price">139,-</span>
         <p>Hjemmelavet hakket oksekød i briochebolle, med friske tomater, hjemmelavet BBQ-sauce, mayo, rødløg og salat. Serveres med pommes frites og mayo. Dobbelt bøf i burger, 179,-</p>
@@ -205,7 +205,7 @@ const FrokostMenu = ({ closeModal }) => (
 </div>
 
 <div class="menu-section">
-    <h2>SALATBAR</h2>
+    <h1>SALATBAR</h1>
     <div class="menu-item">
         <span>SALATBAR HOVEDRET</span> <span class="price">79,-</span>
         <p>Spis så meget du har lyst til, inklusiv brød og smør.</p>

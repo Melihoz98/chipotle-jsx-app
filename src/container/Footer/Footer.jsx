@@ -17,7 +17,7 @@ const Footer = () => (
       </div>
       <div className='app__footer-links_logo'>
       <div className='app__navbar-logo'>
-        <a href='/'><img src={images.logoMexico} alt='app logo' /></a>
+        <a href='/'><img src={images.nyLogo} alt='app logo' /></a>
       </div>
      
         <img src={images.spoon} alt='spoon' className='spoon__img' style={{ marginTop: 15 }} />

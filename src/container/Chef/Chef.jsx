@@ -4,7 +4,7 @@ import './Chef.css';
 import { images } from '../../constants'
 
 const Chef = () => (
-  <div className='app__bg2 app__wrapper section__padding'>
+  <div className='app__bg2 app__wrapper section__padding' id='chef'>
    
    <div className='app__wrapper_img app__wrapper_img-reverse'>
     <img src={images.insideImage} alt='chef' />

@@ -12,8 +12,8 @@ const Footer = () => (
       <div className='app__footer-links_contact'>
       <h1 className='headtext__cormorant'> Addresse & Tlf</h1>
         <p className='p__opensans2'>Jernbanegade 3</p> <br></br>
-        <p className='p__opensans2'> Slagelse 4200</p> <br></br>
-        <p className='p__opensans2'>55 66 28 00</p>
+        <p className='p__opensans2'>4200 Slagelse </p> <br></br>
+        <p className='p__opensans2'>+45 55 66 28 00</p>
       </div>
       <div className='app__footer-links_logo'>
       <div className='app__navbar-logo'>
@@ -22,7 +22,9 @@ const Footer = () => (
      
         <img src={images.spoon} alt='spoon' className='spoon__img' style={{ marginTop: 15 }} />
         <div className='app__footer-links_icons'>
-          <FiFacebook />
+        <a href="https://www.facebook.com/profile.php?id=61559160222369" target="_blank" rel="noopener noreferrer">
+            <FiFacebook size={24} />
+          </a>
           <a href="/smileydocument.pdf" target="_blank" rel="noopener noreferrer">
             <FaRegSmile size={24} className='smiley__icon' />
           </a>

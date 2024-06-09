@@ -28,8 +28,9 @@ const AboutUs = () => (
 <p className='p__opensans2'> Restauranten byder på en hyggelig indretning med en fusion af rustikke 
 og moderne elementer.
 Et besøg her lover en uforglemmelig kulinarisk rejse til Mexicos hjerte.</p>
-<button type='button' className='custom__button'>Se vores Menu</button>
-</div>
+<a href='#menu'>
+          <button type='button' className='custom__button'>Se vores Menu</button>
+        </a></div>
 
 
     </div>

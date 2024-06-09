@@ -10,8 +10,8 @@ const FindUs = () => (
 <h1 className='headtext__cormorant' style={{marginBottom: '3rem'}}>Find os</h1>
 <div className='app__wrapper-content'>
   <p className='p__opensans2' style={{fontSize:'29px'}}>Jernbanegade 3</p>
-  <p className='p__opensans2' style={{fontSize:'29px'}}>Slagelse 4200</p> <br></br>
-  <p className='p__opensans2' style={{fontSize:'29px'}}>TLF: 55 66 28 00</p>
+  <p className='p__opensans2' style={{fontSize:'29px'}}>4200 Slagelse </p> <br></br>
+  <p className='p__opensans2' style={{fontSize:'29px'}}>TLF: +45 55 66 28 00</p>
   <p className='p__opensans2' style={{fontSize:'29px'}}>chipotlemexican2024@hotmail.com</p>
 
   <p className='p__opensans2' style={{ margin:'2rem 0', fontSize:'34px'}}>Åbningstider</p>

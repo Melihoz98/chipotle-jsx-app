@@ -6,6 +6,7 @@ const FrokostMenu = ({ closeModal }) => (
         <button className="close" onClick={closeModal}>&times;</button>
         
         <div className="menu-section">
+        <h1>Serveres (11-16)</h1>
             <h1>FORRETTER</h1>
             <div className="menu-item">
                 <h2>NACHOS <span className="price">79,-</span></h2>
@@ -30,6 +31,7 @@ const FrokostMenu = ({ closeModal }) => (
         </div>
         
         <div className="menu-section">
+        
             <h1>HOVEDRETTER</h1>
             <div className="menu-item">
                 <h2>BURRITOS DE CARNE ASADA <span className="price">199,-</span></h2>

@@ -26,11 +26,11 @@ const SpecialMenu = () => {
     <div className='app__bg3 app__wrapper section__padding' id='menu'>
       <div className='app__wrapper_info'>
         <h1 className='headtext__cormorant'>MenuKort</h1>
-        <p className='p__opensans3' style={{ margin: '10rem 0' }}>
+        <p className='p__opensans2' style={{ margin: '10rem 0' }}>
           Oplev ægte mexicansk smag hos vores steakhouse.<br />
           Saftige bøffer, krydret krydderier, autentiske retter.<br />
-          Prøv vores tacos, quesadillas og burritos.<br />
-          Velkommen til en smagsrejse!<br />
+          Se vores menukort her<br />
+       
         </p>
         <div className='button-container'>
           <button className='custom__button' onClick={() => openModal('AftenMenu')}>Aften Menu</button>

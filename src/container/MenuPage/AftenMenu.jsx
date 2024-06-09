@@ -6,6 +6,7 @@ const AftenMenu = ({ closeModal })=> (
     <div className='bgBlue'>
             <button className="close" onClick={closeModal}>&times;</button>
     <div class="menu-section">
+    <h1>Serveres (16-21)</h1>
     <h1>FORRETTER</h1>
     <div class="menu-item">
         <h2>MEXIKANSK TOMATSUPPE <span class="price">79,-</span></h2>

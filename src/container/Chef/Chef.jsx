@@ -17,7 +17,7 @@ const Chef = () => {
         <h1 className='headtext__cormorant'>Vi glæder os til at se jer!</h1>
         <div className='app__chef-content'>
           <div className='app__chef-content_quote'>
-            <p className='p__opensans2'> Der plads til alle slags selskab</p>
+            <p className='p__opensans2'> Der plads til alle slags selskab.</p>
           </div>
           <p className='p__opensans2'>
             Ring og bestil bord.  vi sørger for resten  

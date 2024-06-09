@@ -2,16 +2,11 @@
 h1 {
     color: rgb(255, 255, 255)
 }
-span {
-    background-color: #0646db;
-    color: white;
-    padding: 10px;
-}
 .menu-section {
     margin-bottom: 2em;
 }
 .menu-section h2 {
-    background-color: #473629;
+    background-color: #0646db;
     color: white;
     padding: 10px;
 }
@@ -25,7 +20,7 @@ span {
     margin: 0.2em 0 0.5em 0;
 }
 p {
-    color: var(--color-golden);
+    color: white;
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;

@@ -1,8 +1,11 @@
 import React from 'react';
 import { FiFacebook } from 'react-icons/fi';
-import { FaRegSmile } from 'react-icons/fa'; // Import the smiley icon
+// import { FaRegSmile } from 'react-icons/fa'; // Import the smiley icon
 import { images } from '../../constants';
-import { FooterOverlay } from '../../components';
+// import { FooterOverlay } from '../../components';
+import { HiOutlineEmojiSad } from "react-icons/hi";
+import pdfFile from '../../assets/nydocsmiley.pdf'; // Adjust the path as necessary
+
 import './Footer.css';
 
 const Footer = () => (
@@ -17,17 +20,18 @@ const Footer = () => (
       </div>
       <div className='app__footer-links_logo'>
       <div className='app__navbar-logo'>
-        <a href='/'><img src={images.nyLogo} alt='app logo' /></a>
       </div>
-     
+     <div>
+
+     </div>
         <img src={images.spoon} alt='spoon' className='spoon__img' style={{ marginTop: 15 }} />
         <div className='app__footer-links_icons'>
         <a href="https://www.facebook.com/profile.php?id=61559160222369" target="_blank" rel="noopener noreferrer">
             <FiFacebook size={24} />
           </a>
-          <a href="/smileydocument.pdf" target="_blank" rel="noopener noreferrer">
-            <FaRegSmile size={24} className='smiley__icon' />
-          </a>
+     <a href={pdfFile} target="_blank" rel="noopener noreferrer">
+      <HiOutlineEmojiSad size={24} className="smiley__icon" />
+    </a>
         </div>
       </div>
       <div className='app__footer-links_work'>

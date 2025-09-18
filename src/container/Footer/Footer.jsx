@@ -3,8 +3,8 @@ import { FiFacebook } from 'react-icons/fi';
 // import { FaRegSmile } from 'react-icons/fa'; // Import the smiley icon
 import { images } from '../../constants';
 // import { FooterOverlay } from '../../components';
-import { HiOutlineEmojiSad } from "react-icons/hi";
-import pdfFile from '../../assets/nydocsmiley.pdf'; // Adjust the path as necessary
+import { PiSmileyMeh } from "react-icons/pi";
+import pdfFile from '../../assets/midsmileydoc.pdf'; // Adjust the path as necessary
 
 import './Footer.css';
 
@@ -30,7 +30,7 @@ const Footer = () => (
             <FiFacebook size={24} />
           </a>
      <a href={pdfFile} target="_blank" rel="noopener noreferrer">
-      <HiOutlineEmojiSad size={24} className="smiley__icon" />
+      <PiSmileyMeh  size={24} className="smiley__icon" />
     </a>
         </div>
       </div>

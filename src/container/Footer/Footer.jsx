@@ -5,7 +5,7 @@ import { images } from '../../constants';
 // import { FooterOverlay } from '../../components';
 import { PiSmileyMeh } from "react-icons/pi";
 import pdfFile from '../../assets/midsmileydoc.pdf'; // Adjust the path as necessary
-
+import { PiSmileyLight } from "react-icons/pi";
 import './Footer.css';
 
 const Footer = () => (
@@ -29,9 +29,15 @@ const Footer = () => (
         <a href="https://www.facebook.com/profile.php?id=61559160222369" target="_blank" rel="noopener noreferrer">
             <FiFacebook size={24} />
           </a>
-     <a href={pdfFile} target="_blank" rel="noopener noreferrer">
-      <PiSmileyMeh  size={24} className="smiley__icon" />
-    </a>
+   <a
+  href="https://www.findsmiley.dk/Sider/KontrolRapport.aspx?Virk6878475"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="smiley__link"
+>
+  <PiSmileyLight size={24} className="smiley__icon" />
+</a>
+
         </div>
       </div>
       <div className='app__footer-links_work'>
